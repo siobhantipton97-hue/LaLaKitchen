@@ -327,6 +327,12 @@ footer {
 .menu-hero p {
     font-size: 18px;
 }
+.menu-main .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
 .nav-container {
     display: flex;
     align-items: center;
@@ -352,4 +358,10 @@ footer {
 .menu-main .menu-item {
     padding: 12px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.menu-main .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
 }
