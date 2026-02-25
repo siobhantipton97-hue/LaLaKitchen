@@ -367,7 +367,15 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+.drinks-grid {
+    grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
+.full-width {
+    width: 100%;
+}
 .logo img {
     height: 60px;
 }
