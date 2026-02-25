@@ -402,3 +402,22 @@ footer {
     align-items: center;
     font-size: 18px;
 }
+/* =========================
+   MENU PAGE NAV BUTTON STYLE
+   (Does NOT remove anything)
+========================= */
+
+.menu-nav nav a {
+    background-color: var(--logo-teal);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    transition: 0.3s ease;
+}
+
+.menu-nav nav a:hover {
+    background-color: var(--logo-orange);
+    transform: translateY(-2px);
+}
