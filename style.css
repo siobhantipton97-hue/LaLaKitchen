@@ -166,3 +166,35 @@ footer {
     text-align: center;
     padding: 25px;
 }
+.family-intro {
+    background-color: #f4e6c8; /* warm cream */
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.family-intro h2 {
+    color: #2e6e68;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.family-intro p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+    color: #333;
+}
+.features {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+    color: #e6952a;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
