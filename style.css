@@ -14,14 +14,28 @@ body {
 }
 
 /* HEADER */
-
 header {
-    background: var(--logo-paper);
+    height: 100px;
+    padding: 0 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px;
+    background: var(--logo-paper);
     border-bottom: 3px solid var(--logo-teal);
+    position: relative;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Orange accent line */
+
+header::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--logo-orange);
 }
 
 .logo {
@@ -35,15 +49,6 @@ header {
     display: block;
 }
 
-header {
-    height: 100px;       /* Locks header height */
-    padding: 0 60px;     /* Keeps same horizontal padding */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--logo-paper);
-    border-bottom: 3px solid var(--logo-teal);
-}
 nav a {
     text-decoration: none;
     color: var(--logo-dark);
