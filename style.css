@@ -65,7 +65,9 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    background: linear-gradient(rgba(43,38,35,0.55), rgba(43,38,35,0.55)),
+    background: linear-gradient(
+                rgba(46,110,104,0.75),
+                rgba(46,110,104,0.75)),
                 url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
     background-size: cover;
     background-position: center;
@@ -99,7 +101,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background: #c97621;
+    background: #C77620;
 }
 
 /* SECTIONS */
@@ -127,7 +129,7 @@ section {
 }
 
 .card {
-    background: white;
+    background: var(--logo-paper);
     padding: 40px;
     border-radius: 12px;
     width: 320px;
