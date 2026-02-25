@@ -312,3 +312,18 @@ footer {
 .social-links a:hover {
     text-decoration: underline;
 }
+.menu-hero {
+    background: var(--logo-teal);
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.menu-hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.menu-hero p {
+    font-size: 18px;
+}
