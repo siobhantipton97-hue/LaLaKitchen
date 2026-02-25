@@ -355,6 +355,13 @@ footer {
     margin-top: 0;
     margin-bottom: 25px;
 }
+.reverse {
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.reverse .menu-image {
+    order: 2;
+}
 .nav-container {
     display: flex;
     align-items: center;
