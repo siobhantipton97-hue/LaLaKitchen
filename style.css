@@ -24,19 +24,26 @@ header {
     border-bottom: 3px solid var(--logo-teal);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
-    height: 65px;
+    height: 95px;        /* Bigger logo */
     width: auto;
+    display: block;
 }
 
-.logo .la {
-    color: var(--logo-red);
+header {
+    height: 100px;       /* Locks header height */
+    padding: 0 60px;     /* Keeps same horizontal padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--logo-paper);
+    border-bottom: 3px solid var(--logo-teal);
 }
-
-.logo .kitchen {
-    color: var(--logo-teal);
-}
-
 nav a {
     text-decoration: none;
     color: var(--logo-dark);
