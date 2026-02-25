@@ -24,9 +24,9 @@ header {
     border-bottom: 3px solid var(--logo-teal);
 }
 
-.logo {
-    font-size: 34px;
-    font-weight: bold;
+.logo img {
+    height: 65px;
+    width: auto;
 }
 
 .logo .la {
