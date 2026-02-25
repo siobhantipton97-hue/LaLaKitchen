@@ -229,3 +229,86 @@ footer {
 .divider path {
     fill: #e6952a; /* logo orange */
 }
+.location {
+    background-color: #f4e6c8;
+    padding: 80px 20px;
+}
+
+.location h2 {
+    text-align: center;
+    color: #2e6e68;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.location-content {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.map {
+    flex: 1;
+    min-width: 300px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.location-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.location-info h3 {
+    color: #e6952a;
+    margin-top: 20px;
+}
+
+.phone-link {
+    text-decoration: none;
+    color: #2e6e68;
+    font-weight: 600;
+}
+
+.phone-link:hover {
+    text-decoration: underline;
+}
+
+.directions-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #e6952a;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.directions-btn:hover {
+    background-color: #cf7f17;
+    transform: scale(1.05);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #2e6e68;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
