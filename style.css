@@ -543,3 +543,6 @@ nav a:hover::after {
 nav a:hover {
     color: var(--logo-red);
 }
+html {
+    scroll-behavior: smooth;
+}
