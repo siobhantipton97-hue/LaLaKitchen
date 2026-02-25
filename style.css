@@ -407,7 +407,7 @@ footer {
    (Does NOT remove anything)
 ========================= */
 
-.menu-nav nav a {
+nav.menu-nav a {
     background-color: var(--logo-teal);
     color: white;
     padding: 10px 22px;
@@ -415,6 +415,11 @@ footer {
     font-weight: 600;
     font-family: Arial, sans-serif;
     transition: 0.3s ease;
+}
+
+nav.menu-nav a:hover {
+    background-color: var(--logo-orange);
+    transform: translateY(-2px);
 }
 
 .menu-nav nav a:hover {
