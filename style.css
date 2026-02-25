@@ -342,3 +342,14 @@ footer {
     display: flex;
     gap: 30px;
 }
+/* MENU SPACING */
+.menu-main h2,
+.menu-main h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.menu-main .menu-item {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
