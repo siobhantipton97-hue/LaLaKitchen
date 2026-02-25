@@ -1,3 +1,11 @@
+:root {
+  --primary-red: #b23a48;
+  --primary-teal: #2f6f66;
+  --warm-orange: #e6952a;
+  --cream-bg: #f4e6c8;
+  --dark-text: #2c2c2c;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
